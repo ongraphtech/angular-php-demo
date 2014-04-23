@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>AngularJS and Bootstrap</title>
+	<meta name="description" content="Angular JS and Bootstrap Login from with SQLLite3 BE">
+	<meta name="author" content="OnG Tech">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<style>
+		.form-group .alert {
+		  padding: 0px;
+		  margin-bottom: 0px;
+		}
+
+		.extra-info {
+			margin-top: 2em;
+			font-size: smaller;
+		}
+
+		.info{
+			border: 1px solid;margin: 10px 0px;
+			padding:10px;color: #00529B;
+			background-color: #BDE5F8;list-style: none;
+		}
+		.err{
+			border: 1px solid;  margin: 10px 0px;
+			padding:10px;  color: #D8000C;
+			background-color: #FFBABA;   list-style: none;
+		}
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+	<script src="js/new.js"></script>
+</head>
+<body class="bg-gradient">
+	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">Login Into Demo Area</h4>
+					</div>
+					<div class="panel-body">
+						<ng-include src="'views/form.html'"></ng-include>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
